@@ -12,7 +12,7 @@ Because of limited amounts of training data, many methods rely on synthetic, ren
 The method proposed here works solely on real images, exploiting similarities between different shape classes. It is based on [[1]](#1) and predicts the closest shape out of a model database and estimates the corresponding 3D rotation from a single image.
 This is done in two stages, where in the first stage, a general embedding is learnt from the volumetric representations of the available shapes, and in the second stage an image is mapped to the embedding. 
 
-This outperforms any previously recorded results on the 'in the wild' dataset PASCAL3D+ by a wide margin and even performs notably better than [[1]](#1) itself.
+This achieves good results on the 'in the wild' dataset PASCAL3D+.
 
 The proposed method also outputs an uncertainty value and therefore makes it easier to 
 spot rotational ambiguities of the pose.
